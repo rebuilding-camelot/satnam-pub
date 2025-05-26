@@ -1,0 +1,39 @@
+{
+  "name": "satnam-pub",
+  "version": "1.0.0",
+  "description": "[![Deployed on Vercel](https://vercel.com/button)](https://satnam.pub)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebuilding-camelot/satnam-pub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebuilding-camelot/satnam-pub/issues"
+  },
+  "homepage": "https://github.com/rebuilding-camelot/satnam-pub#readme",
+  "dependencies": {
+    "@cmdcode/use-nostr": "github:cmdruid/use-nostr",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.511.0",
+    "next": "^15.1.8",
+    "nostr-control": "github:joelklabo/nostr-control",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "shadcn-ui": "^0.9.5",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "@supabase/supabase-js": "^2.39.7"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}

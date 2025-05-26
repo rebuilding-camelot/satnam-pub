@@ -1,0 +1,10 @@
+{
+  "alice": {
+    "pubkey": "npub1alicepublickeyhere",
+    "relays": ["wss://relay1.nostr.com", "wss://relay2.nostr.com"]
+  },
+  "bob": {
+    "pubkey": "npub1bobpublickeyhere",
+    "relays": ["wss://relay3.nostr.com"]
+  }
+}
