@@ -22,7 +22,10 @@
   "homepage": "https://github.com/rebuilding-camelot/satnam-pub#readme",
   "dependencies": {
     "@cmdcode/use-nostr": "github:cmdruid/use-nostr",
+    "@nostr-dev-kit/ndk": "^2.5.1",
     "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.0",
+    "crypto-js": "^4.2.0",
     "lucide-react": "^0.511.0",
     "next": "^15.1.8",
     "nostr-control": "github:joelklabo/nostr-control",
@@ -34,6 +37,9 @@
     "@supabase/supabase-js": "^2.39.7"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
     "typescript": "5.8.3"
   }
 }
